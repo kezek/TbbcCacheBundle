@@ -29,7 +29,7 @@ class FilesystemCacheFactory implements CacheFactoryInterface
         $doctrineArrayId = sprintf('tbbc_cache.doctrine_cache.%s_file_instance', $config['name']);
         $cacheDir = $container->getParameter('kernel.cache_dir');
         $container
-            ->setDefinition($doctrineArrayId, new DefinitionDecorator('tbbc_cache.doctrine_cache.file'))
+            ->setDefinition($doctrineArrayId, new DefinitionDecorator('tbbc_cache.doctrine_cache.filesystem'))
             ->addArgument($cacheDir . DIRECTORY_SEPARATOR . $config['path'])
             ->setPublic(false)
         ;

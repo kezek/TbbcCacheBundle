@@ -27,7 +27,7 @@
 
         <service id="tbbc_cache.cache_factory.filesystem"
                  class="Tbbc\CacheBundle\DependencyInjection\CacheFactory\FilesystemCacheFactory">
-            <tag name="tbbc_cache.cache_factory" cache_type="fileystem" />
+            <tag name="tbbc_cache.cache_factory" cache_type="filesystem" />
         </service>
     </services>
 
