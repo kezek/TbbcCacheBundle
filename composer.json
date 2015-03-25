@@ -1,5 +1,5 @@
 {
-    "name": "tbbc/cache-bundle",
+    "name": "kezek/cache-bundle",
     "description": "Symfony Bundle - Cache abstraction and method annotations for controlling cache",
     "keywords": ["cache", "caching", "cache abstraction"],
     "type": "symfony-bundle",
